@@ -10,3 +10,4 @@ The system is comprised of 2 control loops. The inner loop is used to control th
 In order to design the controllers, a linearized model of the plant was derived. Certain tools needed to be used in order to achieve this. First, the stiction of the motor needed to be quantified and then removed by using a relay with hysteresis. Then linearization was applied to the plant without the stiction. For both the inner and outer controllers, a discretization approach was used. This means that the controller was originally designed in the continuous domain and then mapped into the discrete domain.
 
 The overall control system takes the following form:
+![The control system configuration](/images/control_system.png)
